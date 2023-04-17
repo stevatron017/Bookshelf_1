@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+
+a:link, a:visited{
+    color: chartreuse;
+}
+
+body {
+    background-image: url("codeGif.webp");
+    background-size: 45%;
+    background-attachment: fixed;
+    color:chartreuse;
+    font-family:'Courier New', Courier, monospace;
+    /* -webkit-text-stroke: .7px rgb(189, 231, 190);   */
+    /* text-shadow: .1px .1px white;   */
+}
+
+.navbar{
+    height: 5vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.heading{
+    display: flex;
+    align-items: flex-end;
+    margin: 20px;
+}
+
+#add-books {
+    background-color: black;
+    color: chartreuse;
+    margin: 20px;
+}
+
+
+.navbar{
+    -webkit-text-stroke: 0;
+    background-color: black;
+}
+
+.button{
+    background-color: black;
+    color: chartreuse;
+    opacity: 1;
+}
+
+.book-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.book-ele{
+    margin: 20px;
+    border-style: solid;
+    border-color: chartreuse;
+    border-radius: 5pt;
+    padding: 5px;
+}
+
+.lang-subj-cat{
+    display: flex;
+    flex-direction: column;
+    color: lightblue;
+}
+
+
+.book-card{
+    display: flex;
+}
+
+.langNumCat{
+    display: flex;
+    color: white;
+    align-items: flex-start;
+}
+
+.comment-monkey{
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: chartreuse;
+    border-radius: 10px;
+    color: red;
+}
+
+.comment-button{
+    width: 100px;
+}
+
+.comm-section{
+    border: none;
+}
+
+.comment-box{
+    box-sizing: border-box;
+    width: 95%;
+}
+
+.enterSubmit{
+    display: flex;
+    box-sizing: border-box;
+}
+
+.newComment{
+    border-style: solid;
+    border-color: red;
+    border-radius: 2.5pt;
+    padding: 5px; 
+    margin: 10px; 
+}
